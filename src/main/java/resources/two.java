@@ -33,6 +33,8 @@ public class two extends BaseCapability {
 		MenuPage p= new MenuPage(driver);
 		p.preference().click();
 		//Thread.sleep(5000);
+		System.out.println("line1");
+		System.out.println("line2");
 	
 		
 	}
